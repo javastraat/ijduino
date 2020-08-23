@@ -1,6 +1,6 @@
 ##############################################################
 
-ijduino.name=IJduino (ATmega328 MHz internal)
+ijduino.name=IJduino (ATmega328 8 MHz internal)
 
 ijduino.upload.protocol=stk500
 ijduino.upload.maximum_size=30720
@@ -18,4 +18,7 @@ ijduino.build.mcu=atmega328p
 ijduino.build.f_cpu=8000000L
 ijduino.build.core=arduino
 ijduino.build.variant=ijduino
+
+ijduino.bootloader.tool=avrdude
+ijduino.upload.tool=avrdude
 
